@@ -1,0 +1,45 @@
+# 🌍 Root ignores
+.DS_Store
+*.log
+*.env
+*.local
+*.swp
+*.swo
+.env.*
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+Thumbs.db
+
+# 📦 Angular (frontend/algo-simulator)
+frontend/algo-simulator/node_modules/
+frontend/algo-simulator/.angular/
+frontend/algo-simulator/.env
+frontend/algo-simulator/.env.local
+frontend/algo-simulator/.output/
+frontend/algo-simulator/.turbo/
+frontend/algo-simulator/package-lock.json
+frontend/algo-simulator/.firebase/
+frontend/algo-simulator/.firebaserc
+
+# 🧠 Golang (backend)
+backend/bin/
+backend/vendor/
+backend/go.sum
+backend/*.exe
+backend/*.out
+backend/*.test
+backend/.env
+
+# 🔧 Tests & Coverage
+coverage/
+*.lcov
+*.coverage
+*.nyc_output
+test-output/
+
+# 📄 OS/System
+ehthumbs.db
+Desktop.ini
